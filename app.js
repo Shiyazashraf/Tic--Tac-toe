@@ -62,7 +62,7 @@
 
     function endGame (draw) {
         if(draw) {
-            winningtext.innerText = "its a Draw!"
+            winningtext.innerText = "Draw!"
         }
         else {
           winningtext.innerText = `${circleTurn? "O's Win!" : "X's Win!"}`  
